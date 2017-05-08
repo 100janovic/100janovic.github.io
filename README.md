@@ -8,7 +8,7 @@ that is ok, in another words:
 I make websites and web apps.
 
 
-I have been lucky enough to work on various projects with amazing people to build products that connect people.
+I have been lucky enough to work on various projects with amazing people to build beautiful websites.
 If you have any questions or simple wants to say Hi,
 feel free to contact me.
 
