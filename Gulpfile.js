@@ -13,7 +13,7 @@ var newer = require('gulp-newer');
 
 
 
-var distFolder = './docs';
+var distFolder = './';
 
 
 
