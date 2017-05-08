@@ -12,6 +12,11 @@ var path = require('path');
 var newer = require('gulp-newer');
 
 
+
+var distFolder = './docs';
+
+
+
 gulp.task('copy', function() {
     var fileFilter = filter(function(file) {
         return file.stat.isFile();
@@ -21,11 +26,9 @@ gulp.task('copy', function() {
             path.join('!' + './app/', '/**/*.{html,js,scss,css}')
         ])
         .pipe(fileFilter)
-        .pipe(newer('../dist'))
-        .pipe(gulp.dest(path.join('../dist', '/')));
+        .pipe(newer(distFolder))
+        .pipe(gulp.dest(path.join(distFolder, '/')));
 });
-
-
 
 
 gulp.task('build', ['copy'], function() {
@@ -34,7 +37,7 @@ gulp.task('build', ['copy'], function() {
             js: [],
             js1: []
         }))
-        .pipe(gulp.dest('../dist/'));
+        .pipe(gulp.dest(distFolder));
 });
 
 
