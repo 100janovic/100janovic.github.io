@@ -41,6 +41,11 @@ section.full {
   left: 0px;
   width: 100%;
   height: 100%; }
+  @media (max-width: 640px) {
+    section.full {
+      position: relative;
+      height: auto;
+      padding-bottom: 150px; } }
 
 .logo {
   position: absolute;
@@ -69,6 +74,14 @@ section.full {
   .intro {
     padding-top: 100px; } }
 
+@media (max-width: 640px) {
+  .intro {
+    width: 100%; }
+    .intro p {
+      padding: 0px 90px;
+      font-size: 36px;
+      text-align: left; } }
+
 .content {
   width: 500px;
   text-align: left;
@@ -87,3 +100,17 @@ section.full {
   .content {
     padding-top: 20px;
     padding-bottom: 20px; } }
+
+@media (max-width: 640px) {
+  .content {
+    width: 100%;
+    padding-bottom: 20px; }
+    .content p {
+      padding: 0px 90px;
+      text-align: left;
+      font-size: 26px;
+      line-height: 32px; }
+    .content p.contact a {
+      line-height: 40px;
+      height: 40px;
+      padding: 4px 10px; } }

@@ -1,7 +1,7 @@
 # 100janovic.github.io
 
-I am Djordje Stojanovic, frontend developer,
-for medium sized projects I can work with backend part as well.
+I am Djordje Stojanovic, front-end developer,
+for medium sized projects I can build back-end part as well.
 
 If you are unfamiliar with this job title,
 that is ok, in another words:

@@ -1,7 +1,6 @@
-var Site = function() {
+var Site = function(Device) {
     var exp = {
         router: function() {
-
             Hashbang.map('/', function() {
                 
             });
@@ -10,6 +9,7 @@ var Site = function() {
 
     function init() {
         exp.router();
+        Device.check();
     }
     init();
 
@@ -21,5 +21,5 @@ var Site = function() {
 
 // init site after dom ready
 $(document).ready(function() {
-    var site = Site();
+    var site = Site(Device);
 });
