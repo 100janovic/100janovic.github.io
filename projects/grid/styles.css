@@ -14,11 +14,11 @@ body {
 
 h1,
 h2 {
-    font-size: 14px;
+    font-size: 20px;
     color: #444;
     display: block;
     text-align: center;
-    line-height: 20px;
+    line-height: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -79,7 +79,7 @@ h2 {
 }
 
 .text-paragraph {
-    font-size: 12px;
+    font-size: 16px;
     color: #444;
     display: block;
     text-align: center;

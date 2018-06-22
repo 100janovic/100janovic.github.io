@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>eWallet</title>
+	<link rel="stylesheet" type="text/css" href="css/lightgallery.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background-color: #ddd;
+			font-family: 'Oswald', sans-serif;
+		}
+		.container{
+			width: 90%;
+			margin: 0px auto;
+			position: relative;
+			display: block;
+		}
+		h2{
+			text-align: center;
+			font-size: 32px;
+			margin: 0px;
+			padding: 30px 0px 0px 0px;
+		}
+		.ui{
+			position: relative;
+			float: right;
+		}
+		.clearfix{
+			float: none;
+			clear: both;
+		}
+		.ui a{
+			display: inline-block;
+			margin-right: 20px;
+			opacity: 1;
+			transition: all 0.2s;
+			transform: translateY(0px);
+		}
+		.ui a:hover{
+			opacity: 0.5;
+		}
+		.ui a:active{
+			transform: translateY(3px);
+		}
+		.ui a:last-child{
+			margin-right: 0px;
+		}
+		.ui a img{
+			width: 60px;
+			height: auto;
+		}
+		p{
+			text-align: center;
+			font-size: 18px;
+		}
+		h2.left,
+		p.left{
+			text-align: left;
+		}
+		p a,
+		ul a{
+			color: #000;
+			text-decoration: none;
+		}
+		ul a:hover,
+		p a:hover{
+			text-decoration: underline;
+		}
+
+		ul a{
+			font-size: 22px;
+		}
+		.footer{
+			display: block;
+			padding-bottom: 80px;
+		}
+		a.disabled{
+			cursor: not-allowed;
+		}
+		.lightGallery a{
+			position: relative;
+			float: left;
+			width: 200px;
+			height: auto;
+			border: 3px solid #fff;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+		}
+		.lightGallery a:hover{
+			border: 3px solid #ddd;
+		}
+		.lightGallery a img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+
+<h2>eWallet</h2>
+<p>Monitor your incomes and expenses.</p>
+<br/>
+
+
+
+<div class="container lightGallery">
+	<a href="img/img1.jpg" class="gallery-link" data-src="img/img1.jpg"><img src="img/img1.jpg"/></a>
+	<a href="img/img2.jpg" class="gallery-link" data-src="img/img2.jpg"><img src="img/img2.jpg"/></a>
+	<a href="img/img3.jpg" class="gallery-link" data-src="img/img3.jpg"><img src="img/img3.jpg"/></a>
+	<a href="img/img4.jpg" class="gallery-link" data-src="img/img4.jpg"><img src="img/img4.jpg"/></a>
+	<a href="img/img5.jpg" class="gallery-link" data-src="img/img5.jpg"><img src="img/img5.jpg"/></a>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="container">
+	<p class="left" style="text-transform: uppercase;">Work in progress. <br/>FREE FOR USE AND MODIFICATION.</p>
+</div>
+
+
+<div class="container footer">
+	<h2 class="left">Links</h2>
+	<p class="left">
+		<ul>
+			<li><a href="https://github.com/100janovic/eWallet" target="_blank">GitHub Frontend</a></li>
+			<li><a href="#" class="disabled" target="_blank" onclick="return false;">GitHub Backend -- soon</a></li>
+			<li><a href="https://vuejs.org/" target="_blank">Vue.js</a></li>
+		</ul>
+	</p>
+	<br/>
+	<br/>
+	<p>
+		Djordje Stojanovic
+		<br><br>
+		<a href="mailto: djordje100janovic@gmail.com">djordje100janovic@gmail.com</a>
+		<br/>
+		<a href="https://100janovic.github.io/" target="_blank">github.com/100janovic</a>
+	</p>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/lightgallery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
