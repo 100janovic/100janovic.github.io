@@ -5,6 +5,8 @@
     <title>Simple grid layout</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../projects.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <style type="text/css">
         body{
             background-color: #ddd;
@@ -28,7 +30,11 @@
     </style>
 </head>
 
-<body>
+<body data-project="grid">
+
+    <div class="projects-nav"></div>
+    <div class="projects-wrapp">
+        
     <div id="container_grid-H">
         <h1>
             SIMPLE LIGHTWEIGHT GRID LAYOUT
@@ -112,6 +118,8 @@
         <br/>2018
     </h2>
 
+</div>
+
     <script src="js/gridlayout.js"></script>
     <script type="text/javascript">
     var grid1 = new GridLayout('promos-wrapper-intro', {
@@ -126,8 +134,8 @@
     });
 
 
-
     </script>
+    <script type="text/javascript" src="../projects.js"></script>
 </body>
 
 </html>

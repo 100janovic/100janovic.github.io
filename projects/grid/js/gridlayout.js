@@ -130,14 +130,18 @@
 
 
         that.wrapperparentwidth = that.wrapperParent.offsetWidth;
+        
+
         if (that.options.colwidth === 'css') {
             that.options.colwidth = that.elms[0].offsetWidth;
         }
+
         if (that.wrapperparentwidth > that.options.colwidth) {
             if (that.options.fullwidthwrapper) {
                 that.wrapperwidth = that.options.colwidth * that.wrapperparentwidth / that.options.colwidth;
             } else {
-                that.wrapperparentwidth = document.body.offsetWidth;
+
+                that.wrapperparentwidth = that.wrapperParent.offsetWidth || document.body.offsetWidth;
                 that.wrapperwidth = that.options.colwidth * Math.floor(that.wrapperparentwidth / that.options.colwidth);
                 that.col_total = Math.floor(that.wrapperparentwidth / that.options.colwidth);
             }
