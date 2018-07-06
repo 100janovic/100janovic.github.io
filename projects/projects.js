@@ -55,7 +55,7 @@ var initNav = function() {
         } else {
             isActive = '';
         }
-        html += '<a href="' + item.url + '" class="' + isActive + '">- <span>' + item.label + '</span></a>';
+        html += '<a href="' + item.url + '" class="' + isActive + '"><span>' + item.label + '</span></a>';
     });
 
     navEl.innerHTML = html;
