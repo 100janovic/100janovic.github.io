@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <title>100janovic</title>
     <!-- start meta -->
     <meta name="title" content="Djordje Stojanovic" />
@@ -41,49 +41,96 @@
     <link rel="stylesheet" href="css/app.css"/>
     <link rel="icon" type="image/png" href="favicon.png">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="projects/projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Kalam" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="build2/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="build2/css/app.css">
 </head>
 
 <body>
-
-    <div class="projects-nav"></div>
-    <div class="projects-wrapp">
-
-    <h1 style="display:none">Djordje Stojanovic (Đorđe Stojanović)</h1>
-    <!-- logo -->
-<!--     <a href="/" class="logo">
-        <img src="img/100janovic.png" alt="Djordje Stojanovic" />
-    </a> -->
-    <section class="full">
-        <div class="intro">
-            <p>Hello!</p>
-            <p>I am Djordje Stojanovic, front-end developer,
-                <br/>for medium sized projects I can build back-end part as well.</p>
-            <p>If you are unfamiliar with this job title,
-                that is ok, in other words:
-                <br/>I make <strong>websites</strong> and <strong>web apps</strong>.</p>
+    <header>
+        <div class="left logo-wrapp">100janovic</div>
+        <div class="right social">
+            <a href="https://www.facebook.com/djordje.stojanovic.399" title="facebook" target="_blank">
+                <span class="icon icon-facebook"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/djordje100janovic" title="linkedin" target="_blank">
+                <span class="icon icon-linkedin"></span>
+            </a>
         </div>
-        <div class="content">
-            <img src="img/djordjestojanovic.png" alt="Djordje Stojanovic" style="display:none" />
-            <p>I have been lucky enough to work on various projects with amazing people to build beautiful websites.
-               If you have any questions or simple wants to say Hi, feel free to contact me.
-            </p>
-            <p class="contact">
-                <a href="mailto:djordje100janovic@gmail.com" title="djordje100janovic@gmail.com">
-                    <span class="icon icon-mail-alt"></span>
-                </a>
-                <a href="https://www.facebook.com/djordje.stojanovic.399" title="facebook" target="_blank">
-                    <span class="icon icon-facebook"></span>
-                </a>
-                <a href="https://www.linkedin.com/in/đorđe-stojanović-91243b92" title="linkedin" target="_blank">
-                    <span class="icon icon-linkedin"></span>
-                </a>
-            </p>
-        </div>
-    </section>
+    </header>
+    <div class="content-wrapp">
+        <div class="slider">
+            <div class="slide intro active">
+                <p class="big anim">Hello!</p>
+                <div class="anim">
+                    I am <span class="info-trigger">
+                    Djordje Stojanovic
+                        <span class="info-popup" style="top: -100px;">
+                            <img src="build2/img/djordje1.jpg" alt="Djordje Stojanovic"/>
+                        </span>
+                    </span>, front-end developer, for medium sized projects I can build back-end part as well.
+                </div>
+                <div class="anim">
+                    <br/>
+                    <br/> If you are unfamiliar with this job title, that is ok, in other words: I make websites and web apps.
+                    <br/>
+                    <br/>
+                </div>
+                <div class="anim">
+                    I have been lucky enough to work on various
+                    <span class="info-trigger">projects
+                        <span class="info-popup" style="top: -50px;">
+                            <ul>
+                                <li>movies and tv shows,</li>
+                                <li>company presentations,</li>
+                                <li>a car industry events,</li>
+                                <li>b2b portals,</li>
+                                <li>custom CMS solutions...</li>
+                            </ul>
+                        </span>
+                    </span> with amazing people to build beautiful websites. If you have any questions or simple wants to say "Hi", feel free to contact me.
+                </div>
+            </div>
+            <div class="slide intro">
+                <p class="big anim">Currently,</p>
+                <div class="anim">
+                    my stack is html, scss, gulp, webpack, vanilla Javascript, vue.js ( I have some experience in React.js and Angular) and a few more <span class="info-trigger">libraries
+                        <span class="info-popup" style="top: -20px;">
+                            <ul>
+                                <li>Handlebars,</li>
+                                <li>Twig,</li>
+                                <li>Rivets.js,</li>
+                                <li>TweenMax...</li>
+                            </ul>
+                        </span>
 
+                    </span> that I love to use in a project.
+                    Also I have experience in building custom cms solutions and b2b portals in PHP and MySql.
+                </div>
+                <br/><br/>
+                <div class="anim">
+                    I absolutely love my profession, and for me it is really important to be surrounded by smart and enthusiastic people, because I still have a lot to <span class="info-trigger">learn
+                        <span class="info-popup" style="top: -20px;">
+                            <ul>
+                                <li>Socket.io</li>
+                                <li>Pixi.js</li>
+                                <li>NativeScript...</li>
+                            </ul>
+                        </span>
+                    </span>, and if my knowledge / experience can help to fulfill clients and companies goals then I am happy.
+                </div>
+            </div>
+            <div class="pagination intro"></div>
+        </div>
     </div>
+    <footer>
+        <div class="left">
+            <a href="https://github.com/100janovic">Github</a>
+        </div>
+        <div class="right">
+            <a href="mailto:djordje100janovic@gmail.com">djordje100janovic@gmail.com</a>
+        </div>
+    </footer>
 
     <!-- GA CODE -->
     <script>
@@ -103,9 +150,12 @@
     ga('send', 'pageview');
     </script>
     <!-- END OF GA CODE -->
-    <script src="js/libs.js"></script>
-    <script src="js/app.js"></script>
-    <script type="text/javascript" src="projects/projects.js"></script>
+
+
+    
+    <script type="text/javascript" src="build2/js/libs.js"></script>
+    <script type="text/javascript" src="build2/js/slider.js"></script>
+    <script type="text/javascript" src="build2/js/app.js"></script>
 </body>
 
 </html>

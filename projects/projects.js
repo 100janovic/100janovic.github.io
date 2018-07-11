@@ -46,7 +46,7 @@ var initNav = function() {
 
 
     html += '<a href="' + title.url + '" class="active"><span>' + title.label + '</span></a>';
-    html += '<div class="projects-title">' + mainTitle + '</div>';
+    //html += '<div class="projects-title">' + mainTitle + '</div>';
 
 
     _forEach(navItems, function(_, item) {
