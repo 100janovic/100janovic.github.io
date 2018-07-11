@@ -90,7 +90,7 @@ var Slider = (function() {
                 exp.goTo(index);
             });
 
-            exp.setPagination();
+            exp.setPagination(active);
 
         },
 
@@ -104,6 +104,8 @@ var Slider = (function() {
                 index = parseInt(_index);
             }
 
+            exp.setPagination(index);
+
             exp.animOut(function() {
 
                 $current = $slides.eq(index);
@@ -112,7 +114,7 @@ var Slider = (function() {
                 $slides.removeClass('active');
                 $current.addClass('active');
 
-                exp.animIn(exp.setPagination);
+                exp.animIn();
 
             });
 
@@ -154,10 +156,10 @@ var Slider = (function() {
             });
         },
 
-        setPagination: function() {
+        setPagination: function(index) {
 
             $paginationLinks.removeClass('active');
-            $paginationLinks.eq(active).addClass('active');
+            $paginationLinks.eq(index).addClass('active');
         },
 
         onMousewheel: function(el) {
