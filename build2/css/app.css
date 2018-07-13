@@ -79,7 +79,7 @@ header .right {
     height: auto;
     position: absolute;
     z-index: 1;
-/*    border-left: 1px dashed #ddd;
+    /*    border-left: 1px dashed #ddd;
     border-right: 1px dashed #ddd;*/
 }
 
@@ -87,14 +87,13 @@ header .right {
     position: relative;
     display: block;
     margin-left: 20%;
-    margin-top: 0px;
+    margin-top: 70px;
     max-width: 750px;
     font-size: 22px;
 }
 
 .intro p.big {
     font-size: 120px;
-    line-height: 120px;
     /*font-family: 'Timens New Roman';*/
     font-family: 'Kalam';
     font-weight: bold;
@@ -128,7 +127,7 @@ header .right {
 
 
 .info-trigger:hover .info-popup {
-	height: auto;
+    height: auto;
     opacity: 1;
     transform: translateY(0px);
     border: 2px solid #000;
@@ -150,25 +149,25 @@ header .right {
 
 
 
-.slider .slide{
-	opacity: 0;
-	display: none;
+.slider .slide {
+    opacity: 0;
+    display: none;
 }
 
-.slider .slide.active{
-	opacity: 1;
-	display: block;
+.slider .slide.active {
+    opacity: 1;
+    display: block;
 }
 
-.slider .pagination a{
-	display: inline-block;
-	margin-right: 2px;
-	width: 20px;
-	height: 20px;
+.slider .pagination a {
+    display: inline-block;
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
 }
 
 .slider .pagination a:after,
-.slider .pagination a:before{
+.slider .pagination a:before {
     height: 3px;
 }
 
@@ -215,6 +214,73 @@ footer {
     opacity: 0;
     z-index: 1;
 }
-.content-wrapp .anim:hover{
-	z-index: 2;
+
+.content-wrapp .anim:hover {
+    z-index: 2;
+}
+
+
+
+@media only screen and (max-width: 680px) {
+    .content-wrapp .intro {
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (max-height: 880px) {
+    header,
+    footer,
+    .content-wrapp {
+        position: relative;
+        display: block;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .content-wrapp {
+        position: relative;
+        display: block;
+    }
+    header .left,
+    footer .left {
+        padding-left: 20px;
+    }
+
+    header .right,
+    footer .right {
+        padding-right: 20px;
+    }
+    .content-wrapp .intro {
+        width: auto;
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    header .left,
+    footer .left,
+    header .right,
+    footer .right {
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .intro p.big{
+        font-size: 50px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    footer{
+        min-height: 150px;
+    }
+    .info-popup{
+        right: 20px;
+    }
 }
