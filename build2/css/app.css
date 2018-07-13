@@ -94,7 +94,7 @@ header .right {
 
 .intro p.big {
     font-size: 120px;
-    font-size: 100px;
+    line-height: 100px;
     /*font-family: 'Timens New Roman';*/
     font-family: 'Kalam';
     font-weight: bold;
