@@ -20,6 +20,10 @@ var initNav = function() {
         'label': 'Mouse move',
         'url': 'https://100janovic.github.io/projects/mousemove/',
         'hash': 'mousemove'
+    },{
+        'label': 'DepthMap',
+        'url': 'https://100janovic.github.io/projects/depthmap/',
+        'hash': 'depthmap'
     }, {
         'label': 'eWallet',
         'url': 'https://100janovic.github.io/projects/ewallet/',
