@@ -23,7 +23,7 @@ var Device = (function() {
         adjustViewport: function(width) {
             $('meta[name=viewport]').attr('content', 'width=' + width + ', user-scalable=no');
         }
-    }
+    };
 
     return exp;
 
