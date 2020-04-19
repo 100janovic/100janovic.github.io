@@ -1,6 +1,6 @@
 # 100janovic.github.io
 
-Hello
+Hello,
 I am Djordje Stojanovic
 Frontend Developer
 
