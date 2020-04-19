@@ -1,14 +1,18 @@
 # 100janovic.github.io
 
-I am Djordje Stojanovic, front-end developer,
-for medium sized projects I can build back-end part as well.
+Hello
+I am Djordje Stojanovic
+Frontend Developer
 
-If you are unfamiliar with this job title,
-that is ok, in another words:
-I make websites and web apps.
+Technologies that I like to work with:
+
+Frontend (JavaScript, Angular, Typescript, SCSS),
+Backend (PHP, MySQL, Node.js).
+Mobile (PWA, NativeScript)
 
 
-I have been lucky enough to work on various projects with amazing people to build beautiful websites.
+Worked on various projects: websites for movies and tv shows, company presentations, car industry events, html5 games, b2b portals, custom cms solutions, mobile apps...
+
 If you have any questions or simple wants to say Hi,
 feel free to contact me.
 
